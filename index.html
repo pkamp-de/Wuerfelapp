@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Würfel App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Würfel App</h1>
+        <div class="controls">
+            <label for="diceCount">Anzahl der Würfel (1–7):</label>
+            <input type="number" id="diceCount" min="1" max="7" value="1">
+            <button id="rollBtn">Würfeln</button>
+        </div>
+        <div id="results" class="results"></div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
